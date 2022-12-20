@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Transform-Animation</title>
+  <link rel="stylesheet" href="assets/css/bootstrap.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/animate.css">
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="assets/img/JavaScript-logo.png" class="img-logo" alt="logo">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">HOME</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="table.html">TABLE</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="flex-box.html">FLEX-BOX</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="position.html">POSITION</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="font.html">FONTS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="figure.html">FIGURE</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="main-tags.html">MAIN-TAGS</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <h2 class="page-title">Transform-Animation</h2>
+    <div class="social-list">
+      <nav>
+        <li><a href="#" class="item item-facebook"></a></li>
+        <li><a href="#" class="item item-linkedin"></a></li>
+        <li><a href="#" class="item item-pinterest"></a></li>
+        <li><a href="#" class="item item-skype"></a></li>
+      </nav>
+    </div>
+    <div class="transform">
+      <div class="container">
+        <h4>translate(-100px, 40px)</h4>
+        <div class="transformed translate" data-content="Translate">
+          <img src="assets/img/pc-img.png" class="img-fluid" alt="">
+        </div>
+      </div>
+
+      <div class="container">
+        <h4>scale(.5, 0.2)</h4>
+        <div class="transformed scale" data-content="Scale">
+          <img src="assets/img/pc-img.png" class="img-fluid" alt="">
+        </div>
+      </div>
+
+      <div class="container">
+        <h4>rotate(-10deg)</h4>
+        <div class="transformed rotate" data-content="Rotate">
+          <img src="assets/img/pc-img.png" class="img-fluid" alt="">
+        </div>
+      </div>
+
+      <div class="container">
+        <h4>skew(-8deg, -4deg)</h4>
+        <div class="transformed skew" data-content="Skew">
+          <img src="assets/img/pc-img.png" class="img-fluid" alt="">
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-4">
+        <div class="example-animation"></div>
+      </div>
+      <div class="col-md-4">
+        <div class="example-sprite"></div>
+      </div>
+      <div class="col-md-4">
+        <div class="example-cat-x  "></div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="sprite">
+            <div class="transform-example"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-3 wow animate__animated animate__backInRight" data-wow-offset="400">
+        <div class="example-cat-x "></div>
+      </div>
+      <div class="col-md-3 wow animate__animated animate__backInRight" data-wow-offset="350" data-wow-duration="1s" >
+        <div class="example-cat-x "></div>
+      </div>
+      <div class="col-md-3 wow animate__animated animate__backInRight" data-wow-offset="300" data-wow-duration=".7s" >
+        <div class="example-cat-x "></div>
+      </div>
+      <div class="col-md-3 wow animate__animated animate__backInRight" data-wow-offset="400" data-wow-duration=".2s" >
+        <div class="example-cat-x "></div>
+      </div>
+      <div class="col-md-3 wow animate__animated animate__backInRight" data-wow-offset="200" data-wow-duration=".4s" >
+        <div class="example-cat-x "></div>
+      </div>
+      <div class="col-md-3 wow animate__animated animate__backInRight">
+        <div class="example-cat-x "></div>
+      </div>
+      <div class="col-md-3 wow animate__animated animate__backInRight">
+        <div class="example-cat-x "></div>
+      </div>
+      <div class="col-md-3 wow animate__animated animate__backInRight">
+        <div class="example-cat-x "></div>
+      </div>
+    </div>
+  </main>
+  <script src="assets/js/wow.js"></script>
+  <script>
+    new WOW().init();
+  </script>
+  <script src="assets/js/bootstrap.bundle.min.js"></script>
+</body>
