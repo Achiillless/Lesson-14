@@ -245,6 +245,10 @@ main {
     border: 2px solid #fff;
 }
 
+.delivery-slider .slick-dots {
+    bottom: -50px;
+}
+
 .btn-orange {
     background: var(--color-1);
     color: #fff;

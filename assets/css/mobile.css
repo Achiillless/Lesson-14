@@ -3,6 +3,12 @@
         justify-content: center;
     }
 
+    .first-screen-slider__item {
+        border-radius: 0;
+        padding-left: 20px;
+        padding-right: 20px;
+        min-height: 552px;
+    }
 
     .first-screen-title {
         font-size: 32px;
@@ -31,16 +37,35 @@
     }
 
     .delivery-slider {
-        max-width: 360px;
+        max-width: 575px;
     }
 
-    .delivery .container-lg, .services .container-lg {
+    .delivery .container-lg,
+    .services .container-lg {
         padding-left: 0;
         padding-right: 0;
     }
 }
 
-@media only screen and (max-width: 1040px) {
+@media only screen and (max-width: 767px) {
+    
+    .first-screen-slider__item {
+        border-radius: 0;
+        padding-left: 20px;
+        padding-right: 20px;
+        min-height: 552px;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    :root {
+        --margin-bottom: 55px;
+    }
+
+    .section-margin {
+        margin-left: 0;
+        margin-right: 0;
+    }
 
     .master-tao .navbar {
         margin: 20px 0;
@@ -61,19 +86,20 @@
         margin-bottom: 15px;
     }
 
+
     .first-screen-slider__item {
         background-position: center;
         border-radius: 0px;
         width: 100%;
         height: 640px;
+        border-radius: 0;
+        padding-left: 20px;
+        padding-right: 20px;
+        min-height: 552px;
     }
 
     .col-6 {
         width: 100%;
-    }
-
-    .steps {
-        display: none;
     }
 
     .template-title h3 {
@@ -84,16 +110,50 @@
         display: block;
     }
 
-    .about .text-decoration__item{
+    .about .text-decoration__item {
         left: 40%;
 
-    } 
+    }
 
-    .about-discruption{
+    .about-discruption {
         font-size: 16px;
         text-align: justify;
     }
-    
+
+    .delivery-slider {
+        max-width: 372px;
+    }
+
+    .advantages {
+        border-radius: 0;
+    }
+
+    .txt {
+        border-radius: 0;
+    }
+
+    .services {
+        border-radius: 0;
+    }
+
+    .footer-nav {
+        display: none;
+    }
+
+    .txt-content {
+        margin-top: 36px;
+    }
+
+    .delivery-slider {
+        max-width: 372px;
+    }
+
+    .footer-info {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
 }
 
 @media only screen and (max-width:1199px) {
@@ -117,4 +177,7 @@
         text-transform: uppercase;
     }
 
+    .delivery-slider {
+        max-width: 744px;
+    }
 }
